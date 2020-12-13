@@ -11,64 +11,33 @@
 ## VLSM
 
 ### Langkah Pengerjaan
-- Membuat file `topologi.sh` yang berisi topologi jaringan sesuai permintaan soal, dimana terdapat 1 router (SURABAYA), 3 switch (switch1, switch2, switch3), 4 client (SIDOARJO, GRESIK, BANYUWANGI, MADIUN), dan 3 server (MALANG, MOJOKERTO, TUBAN).
 
-![no 1](/img/putty.jpg)
+- Membuat pengelompokkan subnet dengan metode VLSM
 
-- Jalankan `bash topologi.sh` untuk membuat uml sesuai dengan topologi yang diatur pada `topologi.sh`
-- Ubah isi dari isi dari file `/etc/network/interfaces` pada setiap uml sesuai dengan gambar dibawah ini.
+![VLSMSub](/img/VLSMSub.png)
 
-- SURABAYA
+- Membuat Tree dari hasil subnetting
 
-![no 1](/img/surabayainterface.jpg)
+![VLSMTree](/img/VLSMTree.png)
 
-- MALANG
+- Berikut adalah daftar detail informasi setiap subnet
 
-![no 1](/img/malanginterface.jpg)
-
-- MOJOKERTO
-
-![no 1](/img/mojointerface.jpg)
-
-- TUBAN
-
-![no 1](/img/tubaninteface.jpg)
-
-- GRESIK
-
-![no 1](/img/gresikinterface.jpg)
-
-- SIDOARJO
-
-![no 1](/img/sidoarjointerface.jpg)
-
-- BANYUWANGI
-
-![no 1](/img/banyuwangiinterface.jpg)
-
-- MADIUN
-
-![no 1](/img/madiuninterface.jpg)
-
-- Jalankan `service networking restart` pada setiap client agar bisa mendapatkan IP
-- Jalankan `ifconfig` untuk memeriksa IP yang didapatkan setiap client
-
-![no 1](/img/ifconfig.jpg)
+![tabelVLSM](/img/tabelVLSM.png)
 
 ## CIDR
 ### Langkah Pengerjaan
 
 - Membuat pengelompokkan subnet dengan metode CIDR. Berikut adalah hasil akhirnya:
 
-![](/img/CIDRSub.jpg)
+![CIDRSub](/img/CIDRSub.jpg)
 
 - Membuat Tree dari hasil subnetting
 
-![](/img/CIDRTree.png)
+![CIDRTree](/img/CIDRTree.png)
 
 - Berikut adalah daftar detail informasi setiap subnet terkecil (A)
 
-![](/img/tabel.png)
+![](/img/tabelCIDR.png)
 
 
 - Membuat file `topologi.sh` lalu jalankan `bash topologi.sh`
