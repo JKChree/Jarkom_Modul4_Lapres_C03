@@ -20,9 +20,17 @@
 
 ![VLSMTree](/img/VLSMTree.png)
 
-- Berikut adalah daftar detail informasi setiap subnet
+- Berikut adalah tabel total ip yang sudah kami hitung
 
-![tabelVLSM](/img/tabelVLSM.png)
+![totalip](/img/totalip.jpg)
+
+- Berikut adalah daftar pembagian NID
+
+![NID](/img/NID.jpg)
+
+- Berikut adalah tabel routing dari setiap router
+
+![routingvlsm](/img/routingvlsm.jpg)
 
 ## CIDR
 ### Langkah Pengerjaan
