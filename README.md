@@ -491,4 +491,62 @@ route add -net 192.168.0.0 netmask 255.255.252.0 gw 192.168.4.2
 - Jalankan `iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.168.0.0/16` pada router Surabaya agar dapat terhubung dengan internet
 - Lakukan tes dengan melakukan ping dari berbagai UML
 
-![no 2](/img/surabayaispdhcp1.png)
+#### ping its.ac.id dari TULUNGAGUNG
+
+![1](/img/1.jpg)
+
+#### ping its.ac.id dari BANYUWANGI
+
+![2](/img/2.jpg)
+
+#### ping its.ac.id dari SIDOARJO
+
+![3](/img/3.jpg)
+
+#### ping its.ac.id dari PROBOLINGGO
+
+![4](/img/4.jpg)
+
+#### ping its.ac.id dari LUMAJANG
+
+![5](/img/6.jpg)
+
+#### ping its.ac.id dari BOJONEGORO
+
+![6](/img/5.jpg)
+
+#### ping dari MALANG ke MOJOKERTO
+
+![7](/img/7.jpg)
+
+#### ping dari MALANG ke BANYUWANGI
+
+![8](/img/8.jpg)
+
+#### ping dari MOJOKERTO ke BOJONEGORO
+
+![9](/img/9.jpg)
+
+#### ping dari PROBOLINGGO ke MOJOKERTO
+
+![10](/img/10.jpg)
+
+#### ping dari KEDIRI ke PROBOLINGGO
+
+![11](/img/11.jpg)
+
+#### ping dari PROBOLINGGO ke JOMBANG
+
+![12](/img/12.jpg)
+
+#### ping dari LUMAJANG ke JOMBANG
+
+![13](/img/13.jpg)
+
+#### ping dari TULUNGAGUNG ke JEMBER
+
+![14](/img/14.jpg)
+
+#### ping dari NGANJUK ke BONDOWOSO
+
+![15](/img/15.jpg)
